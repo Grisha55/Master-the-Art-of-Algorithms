@@ -15,7 +15,7 @@ Each folder below represents a major category of algorithms or data structures. 
 
 | Category | Description |
 |----------|-------------|
-| [Sorting](./Sorting) | Classic sorting algorithms — quicksort, mergesort, etc. |
+| [Sorting](./Sorting-Algorithms) | Classic sorting algorithms — quicksort, mergesort, etc. |
 | [DynamicProgramming](./DynamicProgramming) | Solve complex problems by breaking them down |
 | [Trees](./Trees) | Binary trees, traversals, and tree-based algorithms |
 | [Graphs](./Graphs) | Graph representations and algorithms like DFS, BFS |
