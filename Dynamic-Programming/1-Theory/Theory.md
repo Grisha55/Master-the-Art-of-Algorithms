@@ -7,7 +7,7 @@ Dynamic Programming (DP) is an optimization technique that solves complex proble
 - **Recursion**: The process of solving a problem by solving smaller instances of the same problem.
 - **Memoization/Tabulation**: Storing solutions to subproblems to avoid redundant computations.
 
-![DP Approach](https://miro.medium.com/max/1400/1*t7kL7Yt5M3Zq6t3x7Tn7NQ.png)
+![DP Approach](./images/dp.png)
 
 ---
 
@@ -18,7 +18,7 @@ Two key properties that make a problem suitable for DP:
 
 Example: Fibonacci sequence where `fib(5)` requires `fib(3)` and `fib(4)`, and `fib(3)` is reused in `fib(4)`.
 
-![Overlapping Subproblems](https://www.geeksforgeeks.org/wp-content/uploads/Fibonacci-1.png)
+![Overlapping Subproblems](./images/fibonaci.png)
 
 ---
 
@@ -57,3 +57,6 @@ func fib(_ n: Int) -> Int {
 
 // Usage:
 print(fib(10))  // Output: 55
+
+![Memoization](./images/memoization.png)
+![Tabulation](./images/tabulation.png)
