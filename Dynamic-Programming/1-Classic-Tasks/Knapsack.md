@@ -1,7 +1,7 @@
 # Classic Dynamic Programming Problems (Swift)
 
 ## 4. 0/1 Knapsack
-**problem** Given items with weights and values, determine the maximum value you can carry in a knapsack of fixed capacity (each item can be taken only once).
+**Problem:** Given items with weights and values, determine the maximum value you can carry in a knapsack of fixed capacity (each item can be taken only once).
 
 ### Solution:
 ```swift
