@@ -7,7 +7,7 @@ Dynamic Programming (DP) is an optimization technique that solves complex proble
 - **Recursion**: The process of solving a problem by solving smaller instances of the same problem.
 - **Memoization/Tabulation**: Storing solutions to subproblems to avoid redundant computations.
 
-![DP Approach](./images/dp.png)
+![DP Approach](../images/dp.png)
 
 ---
 
@@ -18,7 +18,7 @@ Two key properties that make a problem suitable for DP:
 
 Example: Fibonacci sequence where `fib(5)` requires `fib(3)` and `fib(4)`, and `fib(3)` is reused in `fib(4)`.
 
-![Overlapping Subproblems](./images/fibonaci.png)
+![Overlapping Subproblems](../images/fibonaci.png)
 
 ---
 
@@ -30,6 +30,8 @@ Example: Fibonacci sequence where `fib(5)` requires `fib(3)` and `fib(4)`, and `
 | Space Efficiency | May not use all table entries                  | Uses entire table                          |
 | Code Complexity  | Often simpler to implement                    | May require more upfront planning          |
 
+  
+![Memoization](../images/memoization.png)
 #### Memoization Example (Top-Down):
 ```swift
 func fib(_ n: Int, _ memo: inout [Int: Int]) -> Int {
@@ -42,9 +44,11 @@ func fib(_ n: Int, _ memo: inout [Int: Int]) -> Int {
 // Usage:
 var memo = [Int: Int]()
 print(fib(10, &memo))  // Output: 55
+```
 
-
+![Tabulation](../images/tabulation.png)
 #### Tabulation Example in Swift (Bottom-Up):
+```swift
 func fib(_ n: Int) -> Int {
     if n <= 1 { return n }
     var table = [Int](repeating: 0, count: n+1)
@@ -57,6 +61,4 @@ func fib(_ n: Int) -> Int {
 
 // Usage:
 print(fib(10))  // Output: 55
-
-![Memoization](./images/memoization.png)
-![Tabulation](./images/tabulation.png)
+```
