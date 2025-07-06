@@ -1,6 +1,3 @@
-# Dynamic Programming: Bitmask DP
-
-```markdown
 # Dynamic Programming with Bitmasks (Bitmask DP)
 
 Bitmask DP uses binary representations (bits) to compactly represent states, often used in problems involving subsets or permutations.
@@ -48,7 +45,7 @@ let graph = [
     [20, 25, 30, 0]
 ]
 print(tsp(graph: graph, n: 4)) // Output: 80
-
+```
 
 ## Key idea:
 - A bitmask `mask` tracks visited nodes.
