@@ -22,8 +22,6 @@ Each folder below represents a major category of algorithms or data structures. 
 | [Heap](./Heap) | MinHeap, MaxHeap, and priority queues |
 | [Backtracking](./Backtracking) | Recursive search with constraints — N-Queens, etc. |
 | [Greedy](./Greedy) | Make locally optimal choices for global results |
-| [Stack](./Stack) | LIFO data structure and related problems |
-| [Queue](./Queue) | FIFO structure and real-world queue problems |
 | [Deque](./Deque) | Double-ended queue — sliding window, etc. |
 | [LinkedList](./LinkedList) | Singly and doubly linked lists, cycle detection, etc. |
 | [PrefixSums](./PrefixSums) | Range sum queries, subarray problems, and optimizations |
